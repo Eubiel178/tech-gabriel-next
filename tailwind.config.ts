@@ -8,6 +8,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        small: { max: "334px" },
+        medium: { max: "420px" },
+        large: { max: "550px" },
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -17,6 +22,7 @@ const config: Config = {
         primary: "#1f2233",
         secondary: "#23253a",
         tertiary: "#2b2e41",
+        highlight: "#1d8ff2",
       },
     },
   },
