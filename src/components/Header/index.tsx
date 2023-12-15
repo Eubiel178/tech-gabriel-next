@@ -2,8 +2,8 @@ import { NavBar } from "./NavBar";
 
 export const Header = () => {
   return (
-    <header className="bg-secondary py-9 px-5block flex justify-between items-center">
-      <h1 className="text-2xl font-black">
+    <header className="bg-secondary py-9 px-5 flex justify-between items-center">
+      <h1 className="title-1 ">
         G<span className="text-highlight">abriel</span>
       </h1>
 
