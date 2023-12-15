@@ -23,6 +23,7 @@ const config: Config = {
         secondary: "#23253a",
         tertiary: "#2b2e41",
         highlight: "#1d8ff2",
+        shadow: "rgba(0, 0, 0, 0.5)",
       },
     },
   },
