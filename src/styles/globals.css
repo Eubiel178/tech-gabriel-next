@@ -17,11 +17,46 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #1f2233;
+  color: #fff;
+  position: relative;
+  height: 100dvh;
+}
+
+@layer utilities {
+  .content-width {
+    width: clamp(12.5rem, 90vw, 62.5rem);
+  }
+
+  .container-config {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title-1 {
+    font-size: 1.5625rem;
+    font-weight: 900;
+  }
+
+  .title-2 {
+    font-size: 1.5625rem;
+    font-weight: 600;
+  }
+
+  .title-3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+
+  .border-bottom {
+    border-bottom: solid 4px #0284c7;
+    padding-bottom: 3px;
+  }
 }
