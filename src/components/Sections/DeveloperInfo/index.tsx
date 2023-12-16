@@ -13,7 +13,7 @@ export const DeveloperInfo = () => {
 
       <div className="container-config z-10 container-config">
         <Image
-          className="border-solid border-4 border-slate-400 rounded-full h-44 w-44	
+          className="border-solid border-4 border-gray-100 rounded-full h-44 w-44	
 
 	"
           src={developer}

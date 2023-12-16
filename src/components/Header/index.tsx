@@ -2,12 +2,14 @@ import { NavBar } from "./NavBar";
 
 export const Header = () => {
   return (
-    <header className="bg-secondary py-9 px-5 flex justify-between items-center">
-      <h1 className="title-1 ">
-        G<span className="text-highlight">abriel</span>
-      </h1>
+    <header className="bg-secondary py-9 px-5 centered">
+      <div className="content-width flex justify-between items-center">
+        <h1 className="title-1 ">
+          G<span className="text-highlight">abriel</span>
+        </h1>
 
-      <NavBar />
+        <NavBar />
+      </div>
     </header>
   );
 };

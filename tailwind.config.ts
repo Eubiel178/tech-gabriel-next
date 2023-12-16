@@ -13,16 +13,14 @@ const config: Config = {
         medium: { max: "420px" },
         large: { max: "550px" },
       },
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      padding: {
+        "y-default": "95px",
       },
       colors: {
         primary: "#1f2233",
         secondary: "#23253a",
         tertiary: "#2b2e41",
-        highlight: "#1d8ff2",
+        highlight: "rgb(56 189 248)",
         shadow: "rgba(0, 0, 0, 0.519)",
       },
     },
