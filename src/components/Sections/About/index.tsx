@@ -21,7 +21,7 @@ export const About = () => {
               <span className="text-highlight font-black">Discover</span>
 
               <h2 className="title-2">
-                <span className="border-solid	border-b-4 border-sky-600 pb-2">
+                <span className="border-bottom">
                   Sob
                 </span>
                 re mim
