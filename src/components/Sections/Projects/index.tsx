@@ -1,10 +1,7 @@
-export const Project = () => {
+export const Projects = () => {
   return (
-    <section
-      id="projects__section"
-      className="projects__section centralize-container"
-    >
-      <div className="project__container default-container-config">
+    <section className="centered py-y-default " id="projects__section">
+      <div className="content-width container-config">
         <h2 className="title-2">
           <span className="text-border">Meus</span> projetos
         </h2>
