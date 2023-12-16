@@ -6,15 +6,15 @@ interface ListItemsProps {
 }
 
 export const ListItems: React.FC<ListItemsProps> = ({ title, data }) => {
-  const renderListItem = (data: SkillsProps) => {
+  const renderListItem = (element: SkillsProps) => {
     return (
       <li
         className="flex flex-col gap-5 justify-center items-center text-center bg-tertiary p-8 w-40"
-        key={data.key}
+        key={element.key}
       >
-        <p className="text-7xl">{data.icon}</p>
+        <p className="text-7xl">{element.icon}</p>
 
-        <p>{data.text}</p>
+        <p>{element.text}</p>
       </li>
     );
   };
