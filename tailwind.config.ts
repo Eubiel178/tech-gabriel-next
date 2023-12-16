@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       screens: {
-        small: { max: "334px" },
+        small: { max: "390px" },
         medium: { max: "420px" },
         large: { max: "550px" },
         largex: { max: "675px" },

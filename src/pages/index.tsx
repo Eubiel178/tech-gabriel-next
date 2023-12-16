@@ -1,4 +1,11 @@
-import { Header, DeveloperInfo, About, Skills, Projects } from "@/components";
+import {
+  Header,
+  DeveloperInfo,
+  About,
+  Skills,
+  Projects,
+  Contacts,
+} from "@/components";
 
 export default function Home() {
   return (
@@ -10,6 +17,7 @@ export default function Home() {
         <About />
         <Skills />
         <Projects />
+        <Contacts />
       </main>
     </>
   );

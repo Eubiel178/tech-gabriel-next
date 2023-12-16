@@ -9,7 +9,7 @@ export const ListItems: React.FC<ListItemsProps> = ({ title, data }) => {
   const renderListItem = (element: SkillsProps) => {
     return (
       <li
-        className="flex flex-col gap-5 justify-center items-center text-center bg-tertiary p-8 w-40"
+        className="flex flex-col gap-5 justify-center items-center text-center bg-tertiary p-8 w-40 small:w-full"
         key={element.key}
       >
         <p className="text-7xl">{element.icon}</p>
