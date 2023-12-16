@@ -31,8 +31,7 @@ body {
   .container-config {
     display: flex;
     flex-direction: column;
-    gap: 55px;
-    margin: 0 20px;
+    gap: 20px;
   }
 
   .centered {
