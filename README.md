@@ -1,40 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<img src="./src/assets/images/mario--banner.gif"/>
 
-## Getting Started
+**Gabriel Santos Portfolio**
 
-First, run the development server:
+### Descrição
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Este é o código-fonte do [portfólio online de Gabriel Santos](https://portfolio-tech-gabriel.vercel.app/), um desenvolvedor FullStack em formação. O portfólio inclui seções sobre o desenvolvedor, suas habilidades, projetos realizados e formas de entrar em contato.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Estrutura do Código
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+O código está estruturado usando Next.js e consiste em vários componentes para representar diferentes seções do portfólio. Aqui está uma breve visão geral:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+1. **Cabeçario (Header):**
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+   - Barra de navegação com links para seções específicas do portfólio.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+2. **Sobre Mim (About):**
 
-## Learn More
+   - Apresentação do desenvolvedor com uma breve descrição, uma imagem e um botão para baixar o currículo.
 
-To learn more about Next.js, take a look at the following resources:
+3. **Habilidades (Skills):**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   - Lista de habilidades técnicas e comportamentais.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+4. **Projetos (Projects):**
 
-## Deploy on Vercel
+   - Exibição de projetos realizados, com links para as respectivas páginas.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+5. **Contatos:**
+   - Informações de contato, incluindo links para e-mail, LinkedIn, WhatsApp e Instagram.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Contato
+
+Para entrar em contato com Gabriel Santos, você pode usar os seguintes canais:
+
+- Email: [dev123gabriel@gmail.com](mailto:dev123gabriel@gmail.com)
+- LinkedIn: [devgabrielsilva](https://www.linkedin.com/in/devgabrielsilva)
+- WhatsApp: [Enviar mensagem](https://wa.me/5575991096704?text=Ola%20Gabriel,%20tudo%20bem?)
+- Instagram: [tech_gabriel](https://www.instagram.com/tech_gabriel/)
+
+### Portfolio
+
+[Clique Aqui](https://portfolio-tech-gabriel.vercel.app/) para acessar o portfolio

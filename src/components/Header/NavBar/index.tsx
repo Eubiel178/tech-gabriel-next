@@ -9,7 +9,7 @@ export const NavBar = () => {
   return (
     <nav
       className={`flex justify-between items-center gap-5 ${
-        modal.isOpen ? "bg-shadow absolute inset-0 z-20" : "block"
+        modal.isOpen ? "absolute inset-0 z-20" : "block"
       }`}
     >
       <button
@@ -24,7 +24,7 @@ export const NavBar = () => {
       <menu
         className={`flex justify-between items-center gap-5 text-xs ${
           modal.isOpen
-            ? "bg-tertiary fixed top-8 right-3 z-30 flex-col w-44 py-7 shadow-sm"
+            ? "bg-tertiary fixed top-6 right-3 z-30 flex-col w-44 py-7 shadow-sm"
             : "large:hidden"
         }`}
       >
