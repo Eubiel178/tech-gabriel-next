@@ -9,7 +9,7 @@ export const About = () => {
       <div className="content-width flex gap-7 largex:flex-col">
         <figure className="">
           <Image
-            className="block min-w-[16.875rem] w-[30vw] max-w-[30rem] min-h-[16.875rem] h-full max-h-[30rem] border-solid border-4 border-gray-100 medium:w-full medium:h-[18.75rem] "
+            className="block min-w-[6rem] w-[30vw] max-w-[30rem] min-h-[6rem] h-full max-h-[30rem] border-solid border-4 border-gray-100 medium:w-full medium:h-[18.75rem] "
             src={developerImg}
             alt="Foto do desenvolvedor: Gabriel Santos"
           />
@@ -21,9 +21,7 @@ export const About = () => {
               <span className="text-highlight font-black">Discover</span>
 
               <h2 className="title-2">
-                <span className="border-bottom">
-                  Sob
-                </span>
+                <span className="border-bottom">Sob</span>
                 re mim
               </h2>
             </div>
