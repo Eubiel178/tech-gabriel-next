@@ -25,7 +25,7 @@ body {
 
 @layer utilities {
   .content-width {
-    width: clamp(12.5rem, 100%, 62.5rem);
+    width: clamp(12.5rem, 90vw, 62.5rem);
   }
 
   .container-config {

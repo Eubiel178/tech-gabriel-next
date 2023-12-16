@@ -12,6 +12,7 @@ const config: Config = {
         small: { max: "334px" },
         medium: { max: "420px" },
         large: { max: "550px" },
+        largex: { max: "675px" },
       },
       padding: {
         "y-default": "95px",
