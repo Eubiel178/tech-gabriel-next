@@ -1,16 +1,12 @@
-interface dataProps {
-  icon: React.ReactElement;
-  text: string;
-  key: number;
-}
+import { skillsProps } from "@/assets/data/skills";
 
 interface ListItemsProps {
   title: string;
-  data: dataProps[];
+  data: skillsProps[];
 }
 
 export const ListItems: React.FC<ListItemsProps> = ({ title, data }) => {
-  const renderListItem = (data: dataProps) => {
+  const renderListItem = (data: skillsProps) => {
     return (
       <li
         className="flex flex-col gap-5 justify-center items-center text-center bg-tertiary p-8 w-40	"
@@ -28,7 +24,7 @@ export const ListItems: React.FC<ListItemsProps> = ({ title, data }) => {
       <h2 className="title-2">{title} </h2>
 
       <ul className="flex flex-wrap	gap-8">
-        {data.map((element) => {
+        {data.map((element: skillsProps) => {
           return renderListItem(element);
         })}
       </ul>

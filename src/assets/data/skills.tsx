@@ -1,7 +1,13 @@
 import * as SiIcons from "react-icons/si";
 import * as FaIcons from "react-icons/fa";
 
-export const hardSkills = [
+export interface skillsProps {
+  icon: React.ReactElement;
+  text: string;
+  key: number;
+}
+
+export const hardSkills: skillsProps[] = [
   {
     icon: <SiIcons.SiHtml5 fill="#E44D26" />,
     text: "HTML5",
@@ -39,7 +45,7 @@ export const hardSkills = [
   },
 ];
 
-export const softSkills = [
+export const softSkills: skillsProps[] = [
   {
     text: "Planejamento e Execução de Projetos",
     icon: <FaIcons.FaProjectDiagram fill="#ff5722" />,
