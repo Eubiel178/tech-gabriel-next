@@ -4,7 +4,7 @@
 
 ### Descrição
 
-Este é o código-fonte do [portfólio online de Gabriel Santos](https://portfolio-tech-gabriel.vercel.app/), um desenvolvedor FullStack em formação. O portfólio inclui seções sobre o desenvolvedor, suas habilidades, projetos realizados e formas de entrar em contato.
+Este é o código-fonte do [portfólio online de Gabriel Santos](https://tech-gabriel-nextjs.vercel.app/), um desenvolvedor FullStack em formação. O portfólio inclui seções sobre o desenvolvedor, suas habilidades, projetos realizados e formas de entrar em contato.
 
 ### Estrutura do Código
 
@@ -40,4 +40,4 @@ Para entrar em contato com Gabriel Santos, você pode usar os seguintes canais:
 
 ### Portfolio
 
-[Clique Aqui](https://portfolio-tech-gabriel.vercel.app/) para acessar o portfolio
+[Clique Aqui](https://tech-gabriel-nextjs.vercel.app/) para acessar o portfolio
