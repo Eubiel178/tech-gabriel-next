@@ -1,4 +1,5 @@
 import useModal from "@/hooks/useModal";
+import Link from "next/link";
 
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoClose } from "react-icons/io5";
@@ -39,19 +40,19 @@ export const NavBar = () => {
         </li>
 
         <li className="p-2 duration-700 ease-in-out hover:bg-highlight rounded-lg 	">
-          <a href="#about-me__section">Sobre mim</a>
+          <Link href="#about-me__section">Sobre mim</Link>
         </li>
 
         <li className="p-2 duration-700 ease-in-out hover:bg-highlight rounded-lg 	">
-          <a href="#skills__section">Habilidades</a>
+          <Link href="#skills__section">Habilidades</Link>
         </li>
 
         <li className="p-2 duration-700 ease-in-out hover:bg-highlight rounded-lg 	">
-          <a href="#projects__section">Projetos</a>
+          <Link href="#projects__section">Projetos</Link>
         </li>
 
         <li className="p-2 duration-700 ease-in-out hover:bg-highlight rounded-lg 	">
-          <a href="#contact-forms__section">Contatos</a>
+          <Link href="#contact-forms__section">Contatos</Link>
         </li>
       </menu>
     </nav>
